@@ -1,4 +1,4 @@
-package domain;
+package io.itjun.domain;
 
 import java.io.Serializable;
 import java.util.Date;

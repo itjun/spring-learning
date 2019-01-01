@@ -1,6 +1,7 @@
-package domain;
+package io.itjun.domain;
 
 import java.io.Serializable;
+import java.util.Date;
 
 public class User implements Serializable {
 
@@ -9,7 +10,7 @@ public class User implements Serializable {
     private String password;
     private int credits;
     private String lastIp;
-    private String lastVisit;
+    private Date lastVisit;
 
     public int getUserId() {
         return userId;
@@ -51,11 +52,11 @@ public class User implements Serializable {
         this.lastIp = lastIp;
     }
 
-    public String getLastVisit() {
+    public Date getLastVisit() {
         return lastVisit;
     }
 
-    public void setLastVisit(String lastVisit) {
+    public void setLastVisit(Date lastVisit) {
         this.lastVisit = lastVisit;
     }
 
