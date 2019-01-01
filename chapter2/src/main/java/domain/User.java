@@ -2,12 +2,12 @@ package domain;
 
 import java.io.Serializable;
 
-public class UserDao implements Serializable {
+public class User implements Serializable {
 
     private int userId;
     private String userName;
     private String password;
-    private String credits;
+    private int credits;
     private String lastIp;
     private String lastVisit;
 
@@ -35,11 +35,11 @@ public class UserDao implements Serializable {
         this.password = password;
     }
 
-    public String getCredits() {
+    public int getCredits() {
         return credits;
     }
 
-    public void setCredits(String credits) {
+    public void setCredits(int credits) {
         this.credits = credits;
     }
 
