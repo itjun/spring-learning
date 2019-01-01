@@ -1,14 +1,14 @@
-package com.smart.service;
+package io.itjun.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Service;
-
-import com.smart.dao.LoginLogDao;
-import com.smart.dao.UserDao;
-import com.smart.domain.LoginLog;
-import com.smart.domain.User;
 import org.springframework.transaction.annotation.Transactional;
+
+import io.itjun.dao.LoginLogDao;
+import io.itjun.dao.UserDao;
+import io.itjun.domain.LoginLog;
+import io.itjun.domain.User;
 
 @Service
 public class UserService {

@@ -1,4 +1,4 @@
-package com.smart.web;
+package io.itjun.web;
 
 public class LoginCommand {
 	private String userName;

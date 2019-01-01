@@ -1,4 +1,4 @@
-package com.smart.web;
+package io.itjun.web;
 
 import java.util.Date;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.smart.domain.User;
-import com.smart.service.UserService;
+import io.itjun.domain.User;
+import io.itjun.service.UserService;
 
 @RestController
 public class LoginController {
