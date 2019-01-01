@@ -1,46 +1,47 @@
 package io.itjun.domain;
+
 import java.io.Serializable;
 import java.util.Date;
 
-public class LoginLog implements Serializable{
-	private int loginLogId;
+public class LoginLog implements Serializable {
+    private int loginLogId;
 
-	private int userId;
+    private int userId;
 
-	private String ip;
+    private String ip;
 
-	private Date loginDate;
+    private Date loginDate;
 
-	public String getIp() {
-		return ip;
-	}
+    public String getIp() {
+        return ip;
+    }
 
-	public void setIp(String ip) {
-		this.ip = ip;
-	}
+    public void setIp(String ip) {
+        this.ip = ip;
+    }
 
-	public Date getLoginDate() {
-		return loginDate;
-	}
+    public Date getLoginDate() {
+        return loginDate;
+    }
 
-	public void setLoginDate(Date loginDate) {
-		this.loginDate = loginDate;
-	}
+    public void setLoginDate(Date loginDate) {
+        this.loginDate = loginDate;
+    }
 
-	public int getLoginLogId() {
-		return loginLogId;
-	}
+    public int getLoginLogId() {
+        return loginLogId;
+    }
 
-	public void setLoginLogId(int loginLogId) {
-		this.loginLogId = loginLogId;
-	}
+    public void setLoginLogId(int loginLogId) {
+        this.loginLogId = loginLogId;
+    }
 
-	public int getUserId() {
-		return userId;
-	}
+    public int getUserId() {
+        return userId;
+    }
 
-	public void setUserId(int userId) {
-		this.userId = userId;
-	}
+    public void setUserId(int userId) {
+        this.userId = userId;
+    }
 
 }

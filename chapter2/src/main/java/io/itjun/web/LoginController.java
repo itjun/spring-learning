@@ -1,16 +1,14 @@
 package io.itjun.web;
 
-import java.util.Date;
-
-import javax.servlet.http.HttpServletRequest;
-
+import io.itjun.domain.User;
+import io.itjun.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
-import io.itjun.domain.User;
-import io.itjun.service.UserService;
+import javax.servlet.http.HttpServletRequest;
+import java.util.Date;
 
 @RestController
 public class LoginController {
