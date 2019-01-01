@@ -75,7 +75,19 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <properties>
+        <file.encoding>UTF-8</file.encoding>
+        <spring.version>4.2.2.RELEASE</spring.version>
+        <mysql.version>8.0.13</mysql.version>
+        <servlet.version>3.0-alpha-1</servlet.version>
+        <aspectj.version>1.8.1</aspectj.version>
+        <commons-codec.version>1.9</commons-codec.version>
+        <commons-dbcp.version>1.4</commons-dbcp.version>
+        <hibernate.validator.version>5.0.2.Final</hibernate.validator.version>
+        <jetty.version>8.1.8.v20121106</jetty.version>
+        <slf4j.version>1.7.5</slf4j.version>
+        <testng.version>6.8.7</testng.version>
+    </properties>
     <build>
         <plugins>
             <!-- jetty插件 -->
@@ -86,7 +98,7 @@
                 <configuration>
                     <connectors>
                         <connector implementation="org.mortbay.jetty.nio.SelectChannelConnector">
-                            <port>8000</port>
+                            <port>80</port>
                             <maxIdleTime>60000</maxIdleTime>
                         </connector>
                     </connectors>
@@ -107,17 +119,4 @@
         </plugins>
     </build>
 
-    <properties>
-        <file.encoding>UTF-8</file.encoding>
-        <spring.version>4.2.2.RELEASE</spring.version>
-        <mysql.version>8.0.13</mysql.version>
-        <servlet.version>3.0-alpha-1</servlet.version>
-        <aspectj.version>1.8.1</aspectj.version>
-        <commons-codec.version>1.9</commons-codec.version>
-        <commons-dbcp.version>1.4</commons-dbcp.version>
-        <hibernate.validator.version>5.0.2.Final</hibernate.validator.version>
-        <jetty.version>8.1.8.v20121106</jetty.version>
-        <slf4j.version>1.7.5</slf4j.version>
-        <testng.version>6.8.7</testng.version>
-    </properties>
 </project>
