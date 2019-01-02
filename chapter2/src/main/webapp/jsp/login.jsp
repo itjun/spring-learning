@@ -12,7 +12,7 @@
 </c:if>
 <form action="<c:url value="loginCheck.html"/>" method="post">
     用户名：
-    <input type="text" name="userName">
+    <input type="text" name="userName" value="${param.userName}">
     <br>
     密 码：
     <input type="password" name="password">

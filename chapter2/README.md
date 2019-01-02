@@ -3,5 +3,5 @@
 ## chapter02
 
 ```
-mvn clean package -D skipTests
+mvn clean package -DskipTests
 ```
