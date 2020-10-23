@@ -10,6 +10,6 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>chapter2</module>
+        <module>spring-learning-chapter2</module>
     </modules>
 </project>
